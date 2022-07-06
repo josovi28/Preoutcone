@@ -6,3 +6,15 @@
 #•Se debe pedir al usuario un objetivo meta ejemplo quiero ahorrar 1000 colones, eso sería el objetivo que el programa
 #debería alcanzar
 #•Se pueden usar while y if para poder ejecutar este ejercicio
+
+# # from pickle import int
+
+
+Meta=int(input("Monto a ahorrar="))
+ingreso=0 
+while ingreso<Meta:
+    ingreso+=int(input("Ingreso de dinero=")) # operacion=pingreso+ingreso
+    
+    print(f'ingresos = {ingreso}')
+else:
+     print("Meta conseguida")
