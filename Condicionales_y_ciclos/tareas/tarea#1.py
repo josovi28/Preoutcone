@@ -9,6 +9,7 @@
 
 # # from pickle import int
 
+print("   HUCHA   ")
 
 Meta=int(input("Monto a ahorrar="))
 ingreso=0 
@@ -17,4 +18,5 @@ while ingreso<Meta:
     
     print(f'ingresos = {ingreso}')
 else:
-     print("Meta conseguida")
+
+     print("!!! Meta conseguida !!!")
